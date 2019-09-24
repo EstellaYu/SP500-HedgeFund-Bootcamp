@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>S&P500 FIG1</title>
+	<meta name="author" content="Estella Yu, Brad Daniels, Olufunke Olaleye" />
+	<meta name="description" content="Interactive data visualization" />
+	<meta name="keywords"  content="scroll,D3.js, javascript" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../static/css/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+    <!-- Javascript -->
+    <script src="https://d3js.org/d3-ease.v1.min.js"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container" style="background-color:whitesmoke">
+        <div class="row">
+                <text id = "fig1_title">Quantile Performance</text>
+        </div>
+        <div class="row">
+            <div class="col-xs-12  col-md-9">
+                <div id="buttons">
+                    <button value="marketCap" class="active">Market Cap</button>
+                    <button value="PE" class="inactive">PE</button>
+                    <button value="priceBook" class="inactive">Price/Book</button>
+                    <button value="debtEquity" class="inactive">Debt/Equity</button>
+                </div>  
+                <div id="fig1" >
+                <!-- first chart here. -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../static/js/fig1.js"></script>
+
+</body>
+</html>

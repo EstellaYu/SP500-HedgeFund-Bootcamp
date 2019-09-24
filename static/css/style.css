@@ -1,0 +1,177 @@
+
+    /* Style for our header texts
+    * --------------------------------------- */
+    body{
+        background: whitesmoke;
+    }
+    h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+    }
+
+    p{
+        font-size: 15px
+    }
+
+    /* Centered texts in each section
+    * --------------------------------------- */
+    .section{
+        text-align:center;
+    }
+
+    /* fig1 title */
+    #fig1_title{
+        font-size: 50px;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 50px;
+        text-anchor: middle;
+    }
+
+
+    /* Backgrounds will cover all the section
+    * --------------------------------------- */
+    #section1,
+    #section2,
+    #section3{
+        background-size: cover;
+        text-align:center;
+    }
+
+    /* Defining each section background and styles
+    * --------------------------------------- */
+    #section1{
+        background-image: url(../../static/imgs/stocks.gif);
+    }
+    #section2{
+        background: white;
+        padding: 6% 0 0 0;
+    }
+    #section3{
+        background: pink;
+        padding: 6% 0 0 0;
+    }
+    #section3 h1{
+        color: #000;
+    }
+
+    #section1 h1{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 30%;
+        color: #fff;
+        text-shadow: 1px 5px 10px gray;
+    }
+
+    #section2 .intro{
+        position: relative;
+        top: -80px
+    }
+    #section2 h1{
+        text-shadow: 1px 5px 10px #000;
+        color: black
+    }
+
+    #infoMenu li a{
+            color: #fff;
+    }
+/* CARD */
+.card{
+    box-shadow:1px 5px 10px gray;
+    stroke: white
+}
+.card-img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+}
+.card-img-overlay:hover{
+    opacity: 0.8;
+}
+.middle{
+    position: relative;
+    top: 50px
+}
+
+/* LINES */
+.line {
+    fill: none;
+    stroke-width: 3px;
+}
+.circle {
+    stroke-width: 2px;
+    opacity: 0.6;
+}
+
+/* Tooltip */
+.tooltip{
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    padding: 5px;
+    font: 12px sans-serif;
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/* dropdown */
+#buttons {
+    margin-left: 200px;
+}
+button{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 30px;
+    width: 15%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.active{
+    background: gold;
+    color: black;
+}
+.inactive{
+    background: silver;
+    color: gray;
+
+}
+/* Footer */
+.page-footer {
+    bottom: -100%;
+    z-index: 100;
+    position: absolute;
+    background-color: pink;
+    margin-top: 50px;
+    border-top:green;
+  }
+
+.footer-border {
+    height:50px;
+    width:100%;
+    position: absolute;
+}
+/* .footer-border::before {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:10px;
+    background:linear-gradient(to right, green, blue);
+    top:-10px;
+    left:0;
+} */
