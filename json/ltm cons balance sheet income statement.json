@@ -1,0 +1,3363 @@
+{
+  "result": {
+    "totalrows": 20,
+    "rows": [
+      {
+        "rownum": 1,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10509000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.58
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6302000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 89193000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68362000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 30206000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1784000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.55
+          },
+          {
+            "field": "ebit",
+            "value": 27269000000
+          },
+          {
+            "field": "goodwill",
+            "value": 20081000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 61299000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 21370000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 27308000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 5938000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 6693000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 3141000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2714000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 1825000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 13943000000
+          },
+          {
+            "field": "netincome",
+            "value": 21370000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 21370000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 27269000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 3757000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3271000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5434000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7321000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 11781000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 39000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 13229000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11679000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 1267000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 18051000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 21084000000
+          },
+          {
+            "field": "totalassets",
+            "value": 169656000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 112439000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 44694000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 79486000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 18472000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 12887000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 91505000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 5248000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 90170000000
+          }
+        ]
+      },
+      {
+        "rownum": 2,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10411000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.5
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6426000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 90249000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68765000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 32020000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1701000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.48
+          },
+          {
+            "field": "ebit",
+            "value": 27076000000
+          },
+          {
+            "field": "goodwill",
+            "value": 21855000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 61436000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 20675000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 27280000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6605000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 7299000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2053000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2820000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2051000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 12665000000
+          },
+          {
+            "field": "netincome",
+            "value": 20675000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 20675000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 27076000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 3383000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3060000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6173000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7053000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 12423000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 204000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 13607000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11834000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 1510000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 19731000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 21016000000
+          },
+          {
+            "field": "totalassets",
+            "value": 174848000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 116362000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 47415000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 82969000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 18260000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 16186000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 93456000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 10048000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 91879000000
+          }
+        ]
+      },
+      {
+        "rownum": 3,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10592000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.43
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 7414000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 95438000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68475000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 33203000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1688000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.41
+          },
+          {
+            "field": "ebit",
+            "value": 26696000000
+          },
+          {
+            "field": "goodwill",
+            "value": 21728000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 61579000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 20000000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 26840000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6840000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 6963000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2469000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2919000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 1966000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 12019000000
+          },
+          {
+            "field": "netincome",
+            "value": 20000000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 20000000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 26696000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 3471000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3200000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6376000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6942000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 13274000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 144000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 14375000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 12075000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 1700000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 18186000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 21108000000
+          },
+          {
+            "field": "totalassets",
+            "value": 176683000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 118398000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 40748000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 86551000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 27644000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 12427000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 94782000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 4224000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 90132000000
+          }
+        ]
+      },
+      {
+        "rownum": 4,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 11687000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 1.49
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 5595000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 96526000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68465000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 33038000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 1.48
+          },
+          {
+            "field": "ebit",
+            "value": 18161000000
+          },
+          {
+            "field": "goodwill",
+            "value": 16939000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 60542000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 12193000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 18507000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6314000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 4835000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2902000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1295000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2095000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 12053000000
+          },
+          {
+            "field": "netincome",
+            "value": 12193000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 12193000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 18161000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 2522000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3117000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5461000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6647000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 13544000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 346000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 14731000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 12046000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 10011000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 9096000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 20324000000
+          },
+          {
+            "field": "totalassets",
+            "value": 174472000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 122797000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 49647000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 94389000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 27808000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 17908000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 93580000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 7484000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 80083000000
+          }
+        ]
+      },
+      {
+        "rownum": 5,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10080000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 1.55
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 5431000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 99355000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68093000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 31972000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1447000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 1.55
+          },
+          {
+            "field": "ebit",
+            "value": 18110000000
+          },
+          {
+            "field": "goodwill",
+            "value": 17142000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 58786000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 12555000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 18124000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 5569000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 4745000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 3816000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2169000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2784000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 11438000000
+          },
+          {
+            "field": "netincome",
+            "value": 12555000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 12555000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 18110000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 1738000000
+          },
+          {
+            "field": "otherassets",
+            "value": 2869000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5594000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6361000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 13280000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 14000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 15046000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11943000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 7614000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19862000000
+          },
+          {
+            "field": "totalassets",
+            "value": 172896000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 121656000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 49399000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 95451000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 27819000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 11444000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 90758000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 10748000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 77445000000
+          }
+        ]
+      },
+      {
+        "rownum": 6,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10585000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 1.47
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 7185000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 102640000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68279000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 31708000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1618000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 1.46
+          },
+          {
+            "field": "ebit",
+            "value": 16360000000
+          },
+          {
+            "field": "goodwill",
+            "value": 17436000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 56376000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 11710000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 16129000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 4419000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 4619000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2702000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2194000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 4102000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 11514000000
+          },
+          {
+            "field": "netincome",
+            "value": 11710000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 11710000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 16360000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 1773000000
+          },
+          {
+            "field": "otherassets",
+            "value": 2928000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6345000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6886000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 13700000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": -231000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 15789000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11940000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 6728000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19448000000
+          },
+          {
+            "field": "totalassets",
+            "value": 180098000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 127812000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 42643000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 103318000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 40679000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 14507000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 88084000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 3750000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 76780000000
+          }
+        ]
+      },
+      {
+        "rownum": 7,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 11035000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 1.34
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 7170000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 105552000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68012000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 32269000000
+          },
+          {
+            "field": "deferredincometaxescurrent",
+            "value": 1574000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 1.32
+          },
+          {
+            "field": "ebit",
+            "value": 15049000000
+          },
+          {
+            "field": "goodwill",
+            "value": 17948000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 54617000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 10481000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 14648000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 4167000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 4459000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2450000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2674000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 5017000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 11315000000
+          },
+          {
+            "field": "netincome",
+            "value": 10481000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 10481000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 15049000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 1840000000
+          },
+          {
+            "field": "otherassets",
+            "value": 2895000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6598000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6260000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 14122000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": -401000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 16831000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11936000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 4954000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19194000000
+          },
+          {
+            "field": "totalassets",
+            "value": 181869000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 128421000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 44354000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 107063000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 40896000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 12247000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 86886000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 5498000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 74806000000
+          }
+        ]
+      },
+      {
+        "rownum": 8,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 12162000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.59
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6510000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 113240000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68178000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 32780000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.56
+          },
+          {
+            "field": "ebit",
+            "value": 26078000000
+          },
+          {
+            "field": "goodwill",
+            "value": 17872000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 58374000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 20539000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 25639000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 5100000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 3733000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2251000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1476000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 6441000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 10431000000
+          },
+          {
+            "field": "netincome",
+            "value": 20539000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 20539000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 26078000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 1537000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3416000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5892000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6243000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 13640000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": -439000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 18356000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 11988000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 1110000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 2282000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19198000000
+          },
+          {
+            "field": "totalassets",
+            "value": 193468000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 139660000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 59357000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 121471000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 40557000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 18277000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 91154000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 12904000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 71997000000
+          }
+        ]
+      },
+      {
+        "rownum": 9,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 9917000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.71
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 13928000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 136932000000
+          },
+          {
+            "field": "commonstock",
+            "value": 67747000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 33417000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.67
+          },
+          {
+            "field": "ebit",
+            "value": 27000000000
+          },
+          {
+            "field": "goodwill",
+            "value": 17907000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 59286000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 21304000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 26953000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 5649000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 3522000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 3122000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1564000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 7284000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 10486000000
+          },
+          {
+            "field": "netincome",
+            "value": 21304000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 21304000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 27000000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 1681000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3476000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6726000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7333000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 14340000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": -47000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 19224000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 12132000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 944000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19044000000
+          },
+          {
+            "field": "totalassets",
+            "value": 212524000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 157909000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 58810000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 142152000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 60154000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 11129000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 92703000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 14536000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 70372000000
+          }
+        ]
+      },
+      {
+        "rownum": 10,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10562000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.89
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 8468000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 122781000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68177000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 33446000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.85
+          },
+          {
+            "field": "ebit",
+            "value": 28879000000
+          },
+          {
+            "field": "goodwill",
+            "value": 34524000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 61287000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 22553000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 29120000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6567000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 11001000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 1961000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1133000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 8595000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 8912000000
+          },
+          {
+            "field": "netincome",
+            "value": 22553000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 22553000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 28879000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 512000000
+          },
+          {
+            "field": "otherassets",
+            "value": 3845000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5864000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7968000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 15980000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 241000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 21379000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 12294000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 120000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19004000000
+          },
+          {
+            "field": "totalassets",
+            "value": 224610000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 144949000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 70787000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 155801000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 59306000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 14343000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 94733000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 25664000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 68809000000
+          }
+        ]
+      },
+      {
+        "rownum": 11,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10821000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 3.12
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6713000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 126018000000
+          },
+          {
+            "field": "commonstock",
+            "value": 68554000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 33784000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 3.08
+          },
+          {
+            "field": "ebit",
+            "value": 30319000000
+          },
+          {
+            "field": "goodwill",
+            "value": 34668000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 63630000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 24283000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 31178000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6895000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 10547000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 1979000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 465000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 9215000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 7381000000
+          },
+          {
+            "field": "netincome",
+            "value": 24283000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 24283000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 30319000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 644000000
+          },
+          {
+            "field": "otherassets",
+            "value": 4146000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5434000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 6226000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 17381000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 859000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 21962000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 12669000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 531000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19532000000
+          },
+          {
+            "field": "totalassets",
+            "value": 225017000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 146313000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 52005000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 155288000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 76222000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 12882000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 97414000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 7786000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 69729000000
+          }
+        ]
+      },
+      {
+        "rownum": 12,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 13209000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 3.29
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 7663000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 132981000000
+          },
+          {
+            "field": "commonstock",
+            "value": 69315000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 34261000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 3.25
+          },
+          {
+            "field": "ebit",
+            "value": 29025000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35122000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 62310000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 25489000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 29901000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 4412000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 10106000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2181000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 5734000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2643000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 6023000000
+          },
+          {
+            "field": "netincome",
+            "value": 25489000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 25489000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 29025000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 627000000
+          },
+          {
+            "field": "otherassets",
+            "value": 12631000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5103000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7684000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 22406000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 876000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 23734000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 13037000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 306000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 17769000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 19942000000
+          },
+          {
+            "field": "totalassets",
+            "value": 250312000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 162696000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 55745000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 162601000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 76073000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 22431000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 96571000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 10121000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 87711000000
+          }
+        ]
+      },
+      {
+        "rownum": 13,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 10974000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 3.41
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6884000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 138471000000
+          },
+          {
+            "field": "commonstock",
+            "value": 69419000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 34695000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 3.37
+          },
+          {
+            "field": "ebit",
+            "value": 30018000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35389000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 64486000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 26398000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 31058000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 4660000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 9598000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 3211000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 5513000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2126000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 5343000000
+          },
+          {
+            "field": "netincome",
+            "value": 26398000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 26398000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 30018000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": 526000000
+          },
+          {
+            "field": "otherassets",
+            "value": 12927000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 4788000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7723000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 23941000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1040000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 24809000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 13505000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 19702000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 20657000000
+          },
+          {
+            "field": "totalassets",
+            "value": 249097000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 161031000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 51615000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 159450000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 76255000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 14561000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 99181000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 9220000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 89647000000
+          }
+        ]
+      },
+      {
+        "rownum": 14,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 12277000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 1.79
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 12859000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 142780000000
+          },
+          {
+            "field": "commonstock",
+            "value": 70192000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 35858000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 1.77
+          },
+          {
+            "field": "ebit",
+            "value": 30792000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35355000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 66415000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 13829000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 32205000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 18376000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 9034000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2003000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 3186000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2500000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 3961000000
+          },
+          {
+            "field": "netincome",
+            "value": 13829000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 13829000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 30792000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -399000000
+          },
+          {
+            "field": "otherassets",
+            "value": 13716000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 4422000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7813000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 40510000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1413000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 26304000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 13947000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 8567000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 21370000000
+          },
+          {
+            "field": "totalassets",
+            "value": 256003000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 167633000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 58099000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 177643000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 73348000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 18428000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 102273000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 15912000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 78360000000
+          }
+        ]
+      },
+      {
+        "rownum": 15,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 12772000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.04
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 9221000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 132270000000
+          },
+          {
+            "field": "commonstock",
+            "value": 70418000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 37067000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.02
+          },
+          {
+            "field": "ebit",
+            "value": 32361000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35582000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 68813000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 15767000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 33752000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 17985000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 8544000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2084000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2417000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 2585000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 2818000000
+          },
+          {
+            "field": "netincome",
+            "value": 15767000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 15767000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 32361000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -1153000000
+          },
+          {
+            "field": "otherassets",
+            "value": 13965000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 5097000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7500000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 41643000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1391000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 27929000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 14307000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 9974000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 21839000000
+          },
+          {
+            "field": "totalassets",
+            "value": 245497000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 156659000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 46133000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 166258000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 73480000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 17208000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 105880000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 3677000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 79239000000
+          }
+        ]
+      },
+      {
+        "rownum": 16,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 14720000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.15
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 11946000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 133768000000
+          },
+          {
+            "field": "commonstock",
+            "value": 71223000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 38353000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.13
+          },
+          {
+            "field": "ebit",
+            "value": 35058000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35683000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 72007000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 16571000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 36474000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 19903000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 8053000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2662000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 541000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 3815000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 1862000000
+          },
+          {
+            "field": "netincome",
+            "value": 16571000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 16571000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 35058000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -2187000000
+          },
+          {
+            "field": "otherassets",
+            "value": 14128000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 6751000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 8744000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 41044000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1416000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 29460000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 14726000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 0
+          },
+          {
+            "field": "retainedearnings",
+            "value": 13682000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 22223000000
+          },
+          {
+            "field": "totalassets",
+            "value": 258848000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 169662000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 58488000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 176130000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 72242000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 26481000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 110360000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 3998000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 82718000000
+          }
+        ]
+      },
+      {
+        "rownum": 17,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 12782000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 2.45
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 15137000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 135880000000
+          },
+          {
+            "field": "commonstock",
+            "value": 71303000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 39980000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 2.43
+          },
+          {
+            "field": "ebit",
+            "value": 37305000000
+          },
+          {
+            "field": "goodwill",
+            "value": 35855000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 74926000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 18819000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 38711000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 19892000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 7579000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 3614000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1977000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 3538000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 2034000000
+          },
+          {
+            "field": "netincome",
+            "value": 18819000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 18819000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 37305000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -2615000000
+          },
+          {
+            "field": "otherassets",
+            "value": 16526000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 7311000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7953000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 40127000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1406000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 31430000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 15129000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 17279000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 22492000000
+          },
+          {
+            "field": "totalassets",
+            "value": 257619000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 164195000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 56277000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 171652000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 69733000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 17390000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 114906000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 6497000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 85967000000
+          }
+        ]
+      },
+      {
+        "rownum": 18,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 12187000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 4.35
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 6638000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 127662000000
+          },
+          {
+            "field": "commonstock",
+            "value": 77556000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 41339000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 4.31
+          },
+          {
+            "field": "ebit",
+            "value": 38884000000
+          },
+          {
+            "field": "goodwill",
+            "value": 41577000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 77120000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 33541000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 39927000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6386000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 8482000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 1961000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 2062000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 3799000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 2274000000
+          },
+          {
+            "field": "netincome",
+            "value": 33541000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 33541000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 38884000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -2013000000
+          },
+          {
+            "field": "otherassets",
+            "value": 16935000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 7571000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 8297000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 40899000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 1043000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 32717000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 15695000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 16585000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 22541000000
+          },
+          {
+            "field": "totalassets",
+            "value": 258859000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 156874000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 50318000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 166731000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 69653000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 19680000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 118459000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 3516000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 92128000000
+          }
+        ]
+      },
+      {
+        "rownum": 19,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 13308000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 4.54
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 11212000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 131618000000
+          },
+          {
+            "field": "commonstock",
+            "value": 77791000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 42240000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 4.5
+          },
+          {
+            "field": "ebit",
+            "value": 40933000000
+          },
+          {
+            "field": "goodwill",
+            "value": 41861000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 79971000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 34926000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 41772000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 6846000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 8103000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 1951000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 1838000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 3884000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 2403000000
+          },
+          {
+            "field": "netincome",
+            "value": 34926000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 34926000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 40933000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -1265000000
+          },
+          {
+            "field": "otherassets",
+            "value": 17379000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 7049000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 7837000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 42249000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 839000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 33648000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 16296000000
+          },
+          {
+            "field": "retainedearnings",
+            "value": 18338000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 22742000000
+          },
+          {
+            "field": "totalassets",
+            "value": 263281000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 159887000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 53861000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 168417000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 66585000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 19269000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 122211000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 6515000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 94864000000
+          }
+        ]
+      },
+      {
+        "rownum": 20,
+        "values": [
+          {
+            "field": "accountspayableandaccruedexpenses",
+            "value": 16212000000
+          },
+          {
+            "field": "basicepsnetincome",
+            "value": 5.11
+          },
+          {
+            "field": "cashandcashequivalents",
+            "value": 11356000000
+          },
+          {
+            "field": "cashcashequivalentsandshortterminvestments",
+            "value": 133819000000
+          },
+          {
+            "field": "commonstock",
+            "value": 78520000000
+          },
+          {
+            "field": "costofrevenue",
+            "value": 42910000000
+          },
+          {
+            "field": "dilutedepsnetincome",
+            "value": 5.06
+          },
+          {
+            "field": "ebit",
+            "value": 42959000000
+          },
+          {
+            "field": "goodwill",
+            "value": 42026000000
+          },
+          {
+            "field": "grossprofit",
+            "value": 82933000000
+          },
+          {
+            "field": "incomebeforeextraordinaryitems",
+            "value": 39240000000
+          },
+          {
+            "field": "incomebeforetaxes",
+            "value": 43688000000
+          },
+          {
+            "field": "incometaxes",
+            "value": 4448000000
+          },
+          {
+            "field": "intangibleassets",
+            "value": 7750000000
+          },
+          {
+            "field": "inventoriesnet",
+            "value": 2063000000
+          },
+          {
+            "field": "longtermdeferredincometaxliabilities",
+            "value": 233000000
+          },
+          {
+            "field": "longtermdeferredliabilitycharges",
+            "value": 4530000000
+          },
+          {
+            "field": "longterminvestments",
+            "value": 2649000000
+          },
+          {
+            "field": "netincome",
+            "value": 39240000000
+          },
+          {
+            "field": "netincomeapplicabletocommon",
+            "value": 39240000000
+          },
+          {
+            "field": "operatingprofit",
+            "value": 42959000000
+          },
+          {
+            "field": "otheraccumulatedcomprehensiveincome",
+            "value": -340000000
+          },
+          {
+            "field": "otherassets",
+            "value": 22102000000
+          },
+          {
+            "field": "othercurrentassets",
+            "value": 10146000000
+          },
+          {
+            "field": "othercurrentliabilities",
+            "value": 9351000000
+          },
+          {
+            "field": "otherliabilities",
+            "value": 43381000000
+          },
+          {
+            "field": "othernonoperatingincomeexpense",
+            "value": 729000000
+          },
+          {
+            "field": "propertyplantequipmentnet",
+            "value": 36477000000
+          },
+          {
+            "field": "researchdevelopmentexpense",
+            "value": 16876000000
+          },
+          {
+            "field": "restructuringremediationimpairmentprovisions",
+            "value": 0
+          },
+          {
+            "field": "retainedearnings",
+            "value": 24150000000
+          },
+          {
+            "field": "sellinggeneraladministrativeexpenses",
+            "value": 23098000000
+          },
+          {
+            "field": "totalassets",
+            "value": 286556000000
+          },
+          {
+            "field": "totalcurrentassets",
+            "value": 175552000000
+          },
+          {
+            "field": "totalcurrentliabilities",
+            "value": 69420000000
+          },
+          {
+            "field": "totalliabilities",
+            "value": 184226000000
+          },
+          {
+            "field": "totallongtermdebt",
+            "value": 66662000000
+          },
+          {
+            "field": "totalreceivablesnet",
+            "value": 29524000000
+          },
+          {
+            "field": "totalrevenue",
+            "value": 125843000000
+          },
+          {
+            "field": "totalshorttermdebt",
+            "value": 5516000000
+          },
+          {
+            "field": "totalstockholdersequity",
+            "value": 102330000000
+          }
+        ]
+      }
+    ]
+  }
+}
