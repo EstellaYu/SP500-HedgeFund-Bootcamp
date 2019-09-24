@@ -152,13 +152,14 @@ function makeLines(data, chartGroup){
         // create an elementgroup for each Quantile
         chartGroup.append("g").attr("id", `elementGroupQ${i}`)
         // draw line and markers under the element Group
-        drawMarkers(data, chartGroup, xTimeScale, yLinearScale, `Q${i}`);
         drawLine(data, chartGroup, xTimeScale, yLinearScale, `Q${i}`)
+        drawMarkers(data, chartGroup, xTimeScale, yLinearScale, `Q${i}`);
     }
 
     // 6. Add tooltips
     // ================================= 
     var circleGroup = d3.selectAll("circle")
+
     updateTooltip(circleGroup)
 }
 
@@ -220,7 +221,7 @@ function drawLine(data, chartGroup, xTimeScale, yLinearScale, Q){
 
 // Function to draw circle markers based on Quantile number
 function drawMarkers(data, chartGroup, xTimeScale, yLinearScale, Q){
-    circleGroup = chartGroup
+    var circleGroup = chartGroup
                     .selectAll(`#elementGroup${Q}`)
                     .data(data)
                     .enter()
@@ -232,10 +233,8 @@ function drawMarkers(data, chartGroup, xTimeScale, yLinearScale, Q){
                     .attr("stroke", markerColor(Q))
                     .attr("fill", markerColor(Q))
                     .classed(`circle ${Q}`, true);
-    circleGroup
-                .transition().duration(3000)
-                .transitionDelay = "2s"
-                         
+    circleGroup.transition().delay(1000)  
+       
 }
 
 // function to update yScale

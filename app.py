@@ -5,7 +5,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 #################################################
 # Database Setup
@@ -34,15 +34,15 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     """List all available api routes."""
-    return (
-        f"Available Routes:<br/>"
-        f"/FiveLines/criteria/sector <br/>"
-        f"/BarChart/quintile/sector <br/>"
-        f"/ThreeDee/sector <br/>"
-        f"/CompanyData/ticker/criteria <br/>"
-        f"/CriteriaList <br/>"
-        f"/TickerList <br/>"
-        f"/SectorList <br/>"
+    return (render_template("index.html")
+        # f"Available Routes:<br/>"
+        # f"/FiveLines/criteria/sector <br/>"
+        # f"/BarChart/quintile/sector <br/>"
+        # f"/ThreeDee/sector <br/>"
+        # f"/CompanyData/ticker/criteria <br/>"
+        # f"/CriteriaList <br/>"
+        # f"/TickerList <br/>"
+        # f"/SectorList <br/>"
     )
 
 def criteria_abbrev(criteria_dbname):
