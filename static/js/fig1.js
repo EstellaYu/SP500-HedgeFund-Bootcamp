@@ -110,7 +110,7 @@ function makeCriteriaButtons(){
  
     var hoverButton = criteriasButtons.append("button")
                                         .classed("dropbtn", true) 
-                                        .html('Seclection Criteria')
+                                        .html('Selection Criteria')
     var dropdownContent = criteriasButtons.append("div")  
                                             .classed("dropdown-content", true)
                                             .attr("id", "criterias") 
