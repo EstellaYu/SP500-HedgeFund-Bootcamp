@@ -9,7 +9,7 @@ function resizeCanvas() {
     cardWidth = window.innerWidth * 0.5;
 
     for (var i = 0; i< card_description.length; i++){
-        var card_div = cards.append('div').classed("col-md-4", true)
+        var card_div = cards.append('div').classed("col-xl-4 col-md-6 col-sm-12", true)
 
         var card = card_div.append("div")
                             .attr("width", cardWidth)

@@ -47,7 +47,7 @@
         background-image: url(../../static/imgs/stocks.gif);
     }
     #section2{
-        background: white;
+        background-image: url(../../static/imgs/page2Background.png);
         padding: 6% 0 0 0;
     }
     #section3{
@@ -223,20 +223,33 @@ button{
 #fig1 svg{
     margin-top: 50px
 }
-
-/* FIG2 */
 /* Home button */
-#fig2 button{
+#homeButton{
     position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
+    top: 9px;
+    left: 9px;
     height: 50px;
-    width: 150px;
+    width: 100px;
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
-    font-size: 15pt;
+    font-size: 10pt;
 }
+#visualButton{
+    position: absolute;
+    top: 9px;
+    left: 119px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10pt;
+}
+#homeButton:hover, #visualButton:hover{
+    background-color: green;
+}
+
 /* Footer */
 .page-footer {
     bottom: -100%;

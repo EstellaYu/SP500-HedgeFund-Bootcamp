@@ -35,6 +35,7 @@ function makeResponsive(){
     console.log(data_path)
     makeCriteriaButtons()
     makeSectorButtons()
+    makeHomeButtons()
     var chartGroup = resizeCanvas();
 
     
@@ -78,6 +79,19 @@ function makeResponsive(){
                 .classed("inactive", false)
             update(file_path, sector)
         }
+    })
+}
+
+function makeHomeButtons(){
+    var homeButton = d3.select("body").append("div")
+                    .append("button").html("Home").attr("id", "homeButton")
+    d3.select("#homeButton").on("click",function(){
+        location.href = "/"
+    })
+    var visualButton = d3.select("body").append("div")
+                        .append("button").html("Visuals").attr("id", "visualButton")
+    d3.select("#visualButton").on("click",function(){
+        location.href = "/#page2"
     })
 }
 
