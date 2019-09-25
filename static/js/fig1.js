@@ -7,15 +7,15 @@ var paths = {   "P-E" : {
                     path: "/FiveLines/2"
                 },
                 "EV-Sales": {
-                    name: "Enterprice Value/Sales",
+                    name: "E-Value/Sales",
                     path: "/FiveLines/3"
                 },
                 "EV-EBIT": {
-                    name: "Enterprice Value/EBIT",
+                    name: "E-Value/EBIT",
                     path: "/FiveLines/4"
                 },
                 "Debt-Cap": {
-                    name: "Net Debt/Capitalization",
+                    name: "Net Debt/Cap",
                     path: "/FiveLines/5"
                 },
                 "Mkt%20Cap": {
@@ -23,7 +23,7 @@ var paths = {   "P-E" : {
                     path: "/FiveLines/6"
                 }
             }
-sectorList = [  "All", "Communication Services", "Consumer Discretionary", "Consumer Staples", "Energy", "Financials", "Health Care", "Industrials", "Information Technology", "Materials", "Real Estate", "Utilities"]
+sectorList = ["All", "Communication Services", "Consumer Discretionary", "Consumer Staples", "Energy", "Financials", "Health Care", "Industrials", "Information Technology", "Materials", "Real Estate", "Utilities"]
 
 makeResponsive()
 d3.select(window).on("resize", makeResponsive);
@@ -32,10 +32,10 @@ function makeResponsive(){
     file_path = "Mkt%20Cap"
     sector = "All"
     data_path = paths[file_path].path + "%20" + file_path + "/" + sector
-    console.log(data_path)
+    // console.log(data_path)
+    makeHomeButtons()
     makeCriteriaButtons()
     makeSectorButtons()
-    makeHomeButtons()
     var chartGroup = resizeCanvas();
 
     
@@ -58,6 +58,7 @@ function makeResponsive(){
         // console.log(true, value_sec)
         if (value_sec!= sector){
             sector = value_sec  
+            d3.select("#sectorButton>button").html((sector == "All")? ("Sector: " + sector+ " sectors") : ("Sector: " +sector))
             d3.select("#sectors").selectAll("button")
                 .classed("inactive", true)
                 .classed("active",false)
@@ -71,6 +72,7 @@ function makeResponsive(){
         var value  = d3.select(this).attr("value")
         if (value!= file_path){
             file_path = value  
+            d3.select("#criteriaButton>button").html("Criteria: " + paths[file_path].name)
             d3.select("#criterias").selectAll("button")
                 .classed("inactive", true)
                 .classed("active",false)
@@ -83,12 +85,16 @@ function makeResponsive(){
 }
 
 function makeHomeButtons(){
-    var homeButton = d3.select("body").append("div")
+    var buttons = d3.select("#home")
+    if (!buttons.isEmpty){buttons.remove()}
+    var homeButton = d3.select("body").append("div").attr("id", "home")
                     .append("button").html("Home").attr("id", "homeButton")
     d3.select("#homeButton").on("click",function(){
         location.href = "/"
-    })
-    var visualButton = d3.select("body").append("div")
+    })    
+    var buttons = d3.select("#visual")
+    if (!buttons.isEmpty){buttons.remove()}
+    var visualButton = d3.select("body").append("div").attr("id", "visual")
                         .append("button").html("Visuals").attr("id", "visualButton")
     d3.select("#visualButton").on("click",function(){
         location.href = "/#page2"
@@ -319,7 +325,7 @@ function drawLine(data_Q, chartGroup, xTimeScale, yLinearScale, i){
                         .attr("d", line(data_Q))
                         .attr("stroke", markerColor(`Q${i}`))
                         .classed(`line Q${i}_line`, true);
-    var totalLength = path.node().getTotalLength() + 1000;
+    var totalLength = path.node().getTotalLength() + 2000;
     path
         .attr("stroke-dasharray", totalLength + " " + totalLength)
         .attr("stroke-dashoffset", totalLength)
