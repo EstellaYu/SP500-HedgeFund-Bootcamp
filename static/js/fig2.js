@@ -1,7 +1,6 @@
 
 
 makeResponsive();
-d3.select(window).on("resize", makeResponsive)
 
 var chartGroup = d3.select(".chartGroup")
 chartGroup.append("text")
@@ -9,6 +8,16 @@ chartGroup.append("text")
             .attr("font-size", '40px')
             .attr('text-anchor', 'middle')
             .html('Quintile vs. Selection Criteria')
+var homeButton = d3.select("#fig2").append("div")
+                    .append("button").html("Home").attr("id", "homeButton")
+d3.select("#homeButton").on("click",function(){
+    location.href = "/"
+})
+var visualButton = d3.select("#fig2").append("div")
+                    .append("button").html("Visuals").attr("id", "visualButton")
+d3.select("#visualButton").on("click",function(){
+    location.href = "/#page2"
+})
 
                   
 var svg    = chartGroup.call(d3.drag().on('drag', dragged).on('start', dragStart).on('end', dragEnd)).append('g'); 

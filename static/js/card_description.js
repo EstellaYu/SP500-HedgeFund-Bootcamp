@@ -8,7 +8,7 @@ card_description = [
     {
         imglink: "../static/imgs/fig2.gif",
         title: "<b>Quintile?</em> or Selection Criteria?",
-        abstract:"Comparing the average qintile performances over 5 years of data. Which criteria should you use to partition quintiles? Which quintiles offer the greatest return?",
+        abstract:"Comparing the average performances over 5 years. Criteria to use for partitioning quintiles? Quintiles for the greatest return?",
         href:"/fig2",
     },    
     {
