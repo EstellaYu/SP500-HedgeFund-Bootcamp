@@ -28,6 +28,7 @@ function resizeCanvas() {
                 .classed("btn btn-primary middle", true)
                 .attr('href', card_description[i].href)
                 .html("EXPLORE")
+        console.log(card_description[i].href)
     }
 }
 resizeCanvas();
