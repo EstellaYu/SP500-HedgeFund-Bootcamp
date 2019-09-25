@@ -33,17 +33,18 @@ app = Flask(__name__)
 
 @app.route("/")
 def welcome():
-    """List all available api routes."""
-    return (render_template("index.html")
-        # f"Available Routes:<br/>"
-        # f"/FiveLines/criteria/sector <br/>"
-        # f"/BarChart/quintile/sector <br/>"
-        # f"/ThreeDee/sector <br/>"
-        # f"/CompanyData/ticker/criteria <br/>"
-        # f"/CriteriaList <br/>"
-        # f"/TickerList <br/>"
-        # f"/SectorList <br/>"
-    )
+    # return Homepage
+    return render_template("index.html")
+    # """List all available api routes."""
+    # Available links
+    # f"Available Routes:<br/>"
+    # f"/FiveLines/criteria/sector <br/>"
+    # f"/BarChart/quintile/sector <br/>"
+    # f"/ThreeDee/sector <br/>"
+    # f"/CompanyData/ticker/criteria <br/>"
+    # f"/CriteriaList <br/>"
+    # f"/TickerList <br/>"
+    # f"/SectorList <br/>"
 
 def criteria_abbrev(criteria_dbname):
     if (criteria_dbname == "price_earnings"):
@@ -75,6 +76,14 @@ def reverse_criteria(given_criteria):
         criteria = "ev_ebit"
     return criteria
 
+@app.route("/fig1")
+def fig1():
+    return render_template("fig1.html")
+
+@app.route("/fig2")
+def fig2():
+    return render_template("fig2.html")
+    
 @app.route("/CriteriaList")
 def CriteriaList():
     """Return a list of all criteria"""

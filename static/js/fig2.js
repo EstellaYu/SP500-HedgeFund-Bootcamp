@@ -1,23 +1,25 @@
-// chartGroup = makeResponsive();
-// var svg    = chartGroup.call(d3.drag().on('drag', dragged).on('start', dragStart).on('end', dragEnd)).append('g');
-// var cubesGroup = svg.append('g').attr('class', 'cubes');
+
+
 makeResponsive();
 d3.select(window).on("resize", makeResponsive)
+
 var chartGroup = d3.select(".chartGroup")
 chartGroup.append("text")
             .attr("transform", 'translate(600, 30)')
             .attr("font-size", '40px')
             .attr('text-anchor', 'middle')
-            .html('Quantile vs. Selection Criteria')
+            .html('Quintile vs. Selection Criteria')
+
+                  
 var svg    = chartGroup.call(d3.drag().on('drag', dragged).on('start', dragStart).on('end', dragEnd)).append('g'); 
 var cubesGroup = svg.append('g').attr('class', 'cubes');
 
-var origin = [600, 430], scale = 25, j = 10, cubesData = [], alpha = 0, beta = 0, startAngle = Math.PI/6;
-var caption = ['Price-Earnings','Price-Book','Debt-Equity']
-var color  =  d3.scaleOrdinal()
-                .range(['#de6262', '#ffb88c','#ffedbc','#43cea2','#185a9d'])
+var origin = [600, 430], scale = 18, j = 10, cubesData = [], alpha = 0, beta = 0, startAngle = Math.PI/6;
+var caption = ['Price/Earnings','Price/Book','E-Value/Sales', 'E-Value/EBIT','Debt-Cap','Mkt-Cap']
+var color  =  d3.scaleSequential(d3.interpolateGreens)
+                // .range(['#de6262', '#ffb88c','#ffedbc','#43cea2','#185a9d'])
                 // .range(["maroon", "Chocolate", "goldenrod", "Khaki"])
-                //d3.scaleOrdinal(d3.schemeCategory20b);
+// var color = d3.scaleOrdinal(d3.schemeCategory20b);
 var mx, my, mouseX, mouseY;
 var cubes3D = d3._3d()
     .shape('CUBE')
@@ -49,8 +51,8 @@ var zScale3d = d3._3d()
     .rotateY( startAngle)
     .rotateX(-startAngle)
     .scale(scale);
-path = "../static/sample_data/ThreeBars.csv"
-d3.csv(path, function(data){
+path = "ThreeDee/All"
+d3.json(path, function(data){
     init(data)
 })
 
@@ -58,22 +60,21 @@ d3.csv(path, function(data){
 function processData(data, tt){
 
     /* --------- CUBES ---------*/
-
     var cubes = cubesGroup.selectAll('g.cube').data(data[0], function(d){ return d.id });
     var ce = cubes
         .enter()
         .append('g')
         .attr('class', 'cube')
         .attr('fill', function(d){
-            c = parseInt(Math.abs((d.height))* 1.5);
+            var c = (parseInt(Math.abs((d.height)))-5)/15;
             return d3.color(color(c))
         })
         .attr('stroke', function(d){ 
-            c = parseInt(Math.abs((d.height))* 1.5);
+            c = (parseInt(Math.abs((d.height)))-5)/15;
             return d3.color(color(c)).darker(2)
         })
         .merge(cubes)
-        .sort(cubes3D.sort);
+        // .sort(cubes3D.sort);
 
     cubes.exit().remove();
 
@@ -120,9 +121,10 @@ function processData(data, tt){
         .attr('y', function(d){ return origin[1] + scale * d.centroid.y })
         .tween('text', function(d){
             var that = d3.select(this);
+
             var i = d3.interpolateNumber(+that.text(), Math.abs(d.height));
             return function(t){
-                that.text(i(t).toFixed(1));
+                that.text(i(t).toFixed(2));
             };
         });
 
@@ -151,7 +153,7 @@ function processData(data, tt){
         .enter()
         .append('text')
         .attr('class', '_3d xText')
-        .attr('text-anchor','end')
+        .attr('text-anchor','middle')
         .attr('font-weight', 'bolder')
         .merge(xText)
         .each(function(d){
@@ -159,7 +161,7 @@ function processData(data, tt){
         })
         .attr('x', function(d){ return d.projected.x; })
         .attr('y', function(d){ return d.projected.y; })
-        .text(function(d){ return caption[d[2]/5 + 1] });
+        .text(function(d){ return caption[d[2]/5 + 3] });
 
     xText.exit().remove();
 
@@ -195,7 +197,7 @@ function processData(data, tt){
         })
         .attr('x', function(d){ return d.projected.x; })
         .attr('y', function(d){ return d.projected.y; })
-        .text(function(d){ return  `Quantile ${d[0]/5 + 3}`; });
+        .text(function(d){ return  `Quintile ${d[0]/5 + 3}`; });
 
     zText.exit().remove();
 
@@ -207,12 +209,12 @@ function processData(data, tt){
 function init(data){
     cubesData = [], yLine = [], xLine = [], zLine = [];
     var cnt = 0;
-    for(var z = -j/2; z <= j/2; z = z + 5){
-        for(var x = -j; x <= j; x = x + 5){
-            datum = data[parseInt(cnt/3)]
-            ind = parseInt(cnt/5) + 1
-            key = Object.keys(datum)[ind]
-        var h = -datum[key];
+    console.log(data)
+    for(var z = -j/2 * 3; z <= j; z = z + 5){ // criteria
+        for(var x = -j; x <= j; x = x + 5){ // quintile
+            datum = data[cnt]
+            // console.log(datum)
+        var h = -datum.total_return;
         var _cube = makeCube(h, x, z);
             _cube.id = 'cube_' + cnt++;
             _cube.height = h;
@@ -220,8 +222,8 @@ function init(data){
         }
     }
     d3.range(0, 20, 5).forEach(function(d){ yLine.push([-j-3, -d, -j]); });
-    d3.range(-5, 6, 5).forEach(function(d){ xLine.push([-j-3, 0, -d]); });
-    d3.range(-10, 15, 5).forEach(function(d){ zLine.push([-d, 0, -j + 18]); });
+    d3.range(-10, 20, 5).forEach(function(d){ xLine.push([-j-4, 0, -d]); });
+    d3.range(-10, 15, 5).forEach(function(d){ zLine.push([-d, 0, -j + 23]); });
     var data = [
         cubes3D(cubesData),
         yScale3d([yLine]),
