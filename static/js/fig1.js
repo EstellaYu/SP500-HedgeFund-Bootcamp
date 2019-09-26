@@ -99,7 +99,7 @@ function makeHomeButtons(){
     d3.select("#visualButton").on("click",function(){
         location.href = "/#page2"
     })
-}
+} 
 
 function makeCriteriaButtons(){
     var Buttons = d3.select("#fig1").selectAll("div")

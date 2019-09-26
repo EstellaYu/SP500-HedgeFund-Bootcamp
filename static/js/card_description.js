@@ -6,15 +6,15 @@ card_description = [
         href:"/fig1",
     },
     {
+        imglink: "../static/imgs/fig3.gif",
+        title: "Comparing Criterias",
+        abstract:"Direct comparison among selection criterias, with selected quintile and sector",
+        href:"/fig3",
+    },
+    {
         imglink: "../static/imgs/fig2.gif",
         title: "<b>Quintile?</em> or Selection Criteria?",
         abstract:"Comparing the average performances over 5 years. Criteria to use for partitioning quintiles? Quintiles for the greatest return?",
         href:"/fig2",
-    },    
-    {
-        imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBHkZ0os9TK9KrwHJhFLG_CO-VC2Ezo9aUwGfxH5RNjdtn2QfE",
-        title: "Comparing Selection Criteria",
-        abstract:"sgesalthieghaeli;",
-        href:"/fig3",
-    }
+    },   
 ]
