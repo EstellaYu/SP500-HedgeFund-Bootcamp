@@ -84,6 +84,10 @@ def fig1():
 def fig2():
     return render_template("fig2.html")
     
+@app.route("/fig3")
+def fig3():
+    return render_template("fig3.html")
+
 @app.route("/CriteriaList")
 def CriteriaList():
     """Return a list of all criteria"""

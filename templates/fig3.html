@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bar Chart</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 style="margin: 50px; 
+                  font-family: 'Times New Roman', Times, serif;
+                  font-size: 50px">
+                  All criteria for one sector in one quintile
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <div class="well">
+          <h5>SELECT Sector:</h5>
+          <select id="selSector" onchange="sectorChanged(this.value)"></select>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h5>SELECT Quintile:</h5>
+          <select id="selQuintile" onchange="quintileChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10"> 
+        <div id="bar_chart"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="/static/js/fig3.js"></script>
+
+</body>
+
+</html>
