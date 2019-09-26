@@ -1,4 +1,5 @@
 
+sectorList = ["All", "Communication Services", "Consumer Discretionary", "Consumer Staples", "Energy", "Financials", "Health Care", "Industrials", "Information Technology", "Materials", "Real Estate", "Utilities"]                 
 
 makeResponsive();
 
@@ -19,16 +20,15 @@ d3.select("#visualButton").on("click",function(){
     location.href = "/#page2"
 })
 
-                  
 var svg    = chartGroup.call(d3.drag().on('drag', dragged).on('start', dragStart).on('end', dragEnd)).append('g'); 
 var cubesGroup = svg.append('g').attr('class', 'cubes');
 
-var origin = [600, 430], scale = 18, j = 10, cubesData = [], alpha = 0, beta = 0, startAngle = Math.PI/6;
+var origin = [600, 500], scale = 16, j = 10, cubesData = [], alpha = 0, beta = 0, startAngle = Math.PI/6;
 var caption = ['Price/Earnings','Price/Book','E-Value/Sales', 'E-Value/EBIT','Debt-Cap','Mkt-Cap']
+
 var color  =  d3.scaleSequential(d3.interpolateGreens)
-                // .range(['#de6262', '#ffb88c','#ffedbc','#43cea2','#185a9d'])
-                // .range(["maroon", "Chocolate", "goldenrod", "Khaki"])
-// var color = d3.scaleOrdinal(d3.schemeCategory20b);
+var colorm = d3.scaleSequential(d3.interpolateReds)
+
 var mx, my, mouseX, mouseY;
 var cubes3D = d3._3d()
     .shape('CUBE')
@@ -60,30 +60,56 @@ var zScale3d = d3._3d()
     .rotateY( startAngle)
     .rotateX(-startAngle)
     .scale(scale);
-path = "ThreeDee/All"
-d3.json(path, function(data){
-    init(data)
+
+sector = "All"
+path = "ThreeDee/"+ sector
+d3.json(path, function(json_data){
+    init(json_data)
+})    
+
+d3.select("#sectors").selectAll("button").on("click", function(){
+    var value_sec = d3.select(this).attr("value")
+        if (value_sec!= sector){
+            sector = value_sec  
+            d3.select("#fig2sectorButton>button").html((sector == "All")? ("Sector: " + sector+ " sectors") : ("Sector: " +sector))
+            d3.select("#sectors").selectAll("button")
+                .classed("inactive", true)
+                .classed("active",false)
+            d3.select(this)
+                .classed('active', true)
+                .classed("inactive", false)
+            
+            path = "ThreeDee/"+ sector
+            d3.json(path, function(data){
+                init(data)
+            })    
+    }
 })
 
 
-function processData(data, tt){
 
+function processData(data, tt){
+   
+    var minmax_data = data[0].map(d => -d.height)
+    var min = d3.min(minmax_data)
+    var max = d3.max(minmax_data)
     /* --------- CUBES ---------*/
-    var cubes = cubesGroup.selectAll('g.cube').data(data[0], function(d){ return d.id });
+   
+    var cubes = cubesGroup.selectAll('g.cube').data(data[0], function(d){ return d.height });
     var ce = cubes
         .enter()
         .append('g')
         .attr('class', 'cube')
         .attr('fill', function(d){
-            var c = (parseInt(Math.abs((d.height)))-5)/15;
-            return d3.color(color(c))
+            var c = parseInt(Math.abs(d.height)-min)/(max - min);
+            if (d.height < 0){ return d3.color(color(c)) }
+            else{ return d3.color(colorm(c))}
         })
         .attr('stroke', function(d){ 
-            c = (parseInt(Math.abs((d.height)))-5)/15;
+            c = parseInt(Math.abs(d.height)-min)/(max - min);
             return d3.color(color(c)).darker(2)
         })
         .merge(cubes)
-        // .sort(cubes3D.sort);
 
     cubes.exit().remove();
 
@@ -106,7 +132,7 @@ function processData(data, tt){
 
     var texts = cubes.merge(ce).selectAll('text.text').data(function(d){
         var _t = d.faces.filter(function(d){
-            return d.face === 'top';
+            return d.face =='top'  
         });
         return [{height: d.height, centroid: _t[0].centroid}];
     });
@@ -115,7 +141,7 @@ function processData(data, tt){
         .enter()
         .append('text')
         .attr('class', 'text')
-        .attr('dy', '-.7em')
+        .attr('dy', "-0.7em")
         .attr('text-anchor', 'middle')
         .attr('font-family', 'sans-serif')
         .attr('font-weight', 'bolder')
@@ -131,7 +157,7 @@ function processData(data, tt){
         .tween('text', function(d){
             var that = d3.select(this);
 
-            var i = d3.interpolateNumber(+that.text(), Math.abs(d.height));
+            var i = d3.interpolateNumber(+that.text(), -d.height);
             return function(t){
                 that.text(i(t).toFixed(2));
             };
@@ -166,7 +192,7 @@ function processData(data, tt){
         .attr('font-weight', 'bolder')
         .merge(xText)
         .each(function(d){
-            d.centroid = {x: d.rotated.x, y: d.rotated.y, z: d.rotated.z};
+                d.centroid = {x: d.rotated.x, y: d.rotated.y, z: d.rotated.z}
         })
         .attr('x', function(d){ return d.projected.x; })
         .attr('y', function(d){ return d.projected.y; })
@@ -187,7 +213,7 @@ function processData(data, tt){
         .attr('stroke-width', 0.5)
         .attr('d', zScale3d.draw);
 
-    xScale.exit().remove();
+    zScale.exit().remove();
 
      /* ----------- z-Scale Text ----------- */
 
@@ -218,11 +244,9 @@ function processData(data, tt){
 function init(data){
     cubesData = [], yLine = [], xLine = [], zLine = [];
     var cnt = 0;
-    console.log(data)
     for(var z = -j/2 * 3; z <= j; z = z + 5){ // criteria
         for(var x = -j; x <= j; x = x + 5){ // quintile
             datum = data[cnt]
-            // console.log(datum)
         var h = -datum.total_return;
         var _cube = makeCube(h, x, z);
             _cube.id = 'cube_' + cnt++;
@@ -313,7 +337,31 @@ function resizeCanvas() {
 
     return chartGroup;
 }
-function makeResponsive(){
-    resizeCanvas()
+
+function makeSectorButtons(){
+    var Buttons = d3.select("#fig2").selectAll("div")
+    if (!Buttons.isEmpty){Buttons.remove()}
+    var sectorButtons = d3.select("#fig2").append("div")
+                                    .classed("dropdown", true)
+                                    .attr("id", "fig2sectorButton")
+ 
+    var hoverButton = sectorButtons.append("button")
+                                        .classed("dropbtn", true) 
+                                        .html('Select Sector')
+    var dropdownContent = sectorButtons.append("div")  
+                                            .classed("dropdown-content", true)
+                                            .attr("id", "sectors") 
+    for (var i = 0; i< sectorList.length; i++){
+        dropdownContent.append("button")
+                    .attr("value",sectorList[i])
+                    .text(sectorList[i])
+                    .classed("btn btn-outline-warning", true)
+                    .classed("active", false)
+                    .classed("inactive", true)
+    }
 }
 
+function makeResponsive(){
+    makeSectorButtons()
+    resizeCanvas()
+}
