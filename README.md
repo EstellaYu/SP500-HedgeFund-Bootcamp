@@ -1,4 +1,9 @@
-# SP500 HedgeFund Bootcamp 
+# S&P500 Investment Analysis 
+Webpage deployed [here](https://sp500-investment-analysis.herokuapp.com/#page1). Explore!
+
+![webpage](https://github.com/EstellaYu/SP500-HedgeFund-Bootcamp/blob/master/static/imgs/webpage.gif)
+
+## 1. Data Processing
  
 The "db_builder" folder has 4 Jupyter Notebooks that were used to build the database.
 
