@@ -65,7 +65,7 @@ def reverse_criteria(given_criteria):
     if (given_criteria == "1 P-E"):
         criteria = "price_earnings"
     elif (given_criteria == "2 P-B"):
-        criteria = "price_earnings"
+        criteria = "price_book"
     elif (given_criteria == "6 Mkt Cap"):
         criteria = "market_cap"
     elif (given_criteria == "5 Debt-Cap"):

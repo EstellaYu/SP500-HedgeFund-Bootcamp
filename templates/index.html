@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>S&P500 Hedgefund Bootcamp</title>
-    <meta name="author" content="Estella Yu, Brad Daniels, Olufunke Olaleye" />
-    <meta name="description" content="Interactive data visualization" />
-    <meta name="keywords" content="scroll,D3.js, javascript" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>S&P500 Investments Analysis</title>
+	<meta name="author" content="Estella Yu, Brad Daniels, Olufunke Olaleye" />
+	<meta name="description" content="How to invest in SP500? An interactive data visualization"/>
+	<meta name="keywords"  content="Flask, javascript, D3.js, Plotly, HTML&CSS, Python, API" />
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../static/css/jquery.pagepiling.css" />
@@ -29,27 +29,26 @@
         <li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
         <li data-menuanchor="page2"><a href="#page2">Visuals</a></li>
     </ul>
-
-    <div id="pagepiling">
-        <div class="section" id="section1">
-            <h1>S&P 500 Investments</h1>
-            <h2 style="color: white"><br>Stocks performance over the past 20 quarters.</h2>
-            <h2 style="color: white"><br>Overlooking <b>Quintiles</b>, <b>Criteria</b>, and <b>Sectors</b></h2>
-        </div>
-        <div class="section" id="section2">
-            <div class="container-fluid">
-                <div class="row intro">
-                    <div class="col-md-12">
-                        <h1 style="text-align: center">S&P 500 Investments<br></h1>
-                    </div>
-                </div>
-                <div id="cards">
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="../static/js/card_description.js"></script>
-    <script type="text/javascript" src="../static/js/app.js"></script>
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+        <h1>S&P 500 Investments</h1>
+        <h2 style="color: white"><br>Stocks performance over the past 20 quarters.</h2>
+        <h2 style="color: white"><br>Overlooking <b>Quintiles</b>, <b>Criterias</b>, and <b>Sectors</b></h2>
+	    </div>
+	    <div class="section" id="section2">
+			<div class="container-fluid">
+				<div class="row intro">
+					<div class="col-md-12">
+						<h1 style="text-align: center">S&P 500 Investments</h1>
+					</div>
+				</div>
+				<div id = "cards">
+				</div>
+			</div>	
+	    </div>
+	</div>
+	<script type="text/javascript" src="../static/js/card_description.js"></script>
+	<script type="text/javascript" src="../static/js/app.js"></script>
 </body>
 
 </html>

@@ -70,17 +70,25 @@
 
     #section2 .intro{
         position: relative;
-        top: -80px
+        top: -130px
     }
     #section2 h1{
-        text-shadow: 1px 5px 10px #000;
-        color: black
+        /* text-shadow: 10px 10px 100px gray; */
+        font-weight: bold;
+        /* color: black */
+        background: -webkit-linear-gradient(rgb(5, 5, 194), black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #infoMenu li a{
             color: #fff;
     }
 /* CARD */
+#cards{
+    position: relative;
+    top: -30px
+}
 .card{
     box-shadow:1px 5px 10px gray;
     stroke: white
@@ -216,9 +224,6 @@ button{
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  /* .dropdown:hover .dropbtn {background-color: ;} */
 
 /* FIG1 */
 #fig1{
